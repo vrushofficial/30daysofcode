@@ -1,0 +1,26 @@
+                   1
+                /    \
+               2      3
+              / \    / \
+             4   5  6   7
+            /   /         \
+           8   9           10
+
+Algorithm:
+
+Step 1: add Root to stack 1
+
+Step 2: traverse all node from stack 1, for each node
+        pop node, set to root
+        add root to output vector
+
+Step 3: add left and right of root to stack 2 if has any
+
+Step 4: traverse all node from stack 2, for each node
+        pop node, set to root
+        add root to output vector
+
+Step 5: add right left and right of root to stack 1 if has any
+
+Step 6: repeat 2-5 while stack 1 & 2 is not empty
+
