@@ -1,0 +1,14 @@
+
+Algorithm:
+
+For each unvisited node in matrix (and is a island not a water)
+        increment no. of island counter, per each island
+        perform pre-order DFS on matrix with current node as head
+
+Pre-order DFS
+       mark node as visited
+       for unvisited node check for recurrent DFS for upper node,
+       for unvisited node check for recurrent DFS for lower node,
+       for unvisited node check for recurrent DFS for left node,
+       for unvisited node check for recurrent DFS for right node
+
