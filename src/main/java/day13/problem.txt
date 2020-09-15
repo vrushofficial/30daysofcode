@@ -1,0 +1,36 @@
+
+Letter Combinations of a Phone Number
+
+
+Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent.
+
+A mapping of digit to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.
+Assume anormal phone keypad which has numbers and alphabets attached to it, like 2 having "abc" on it and 3 having "def" on so on. 1 and 0 doesnt have any alphabets on it.
+
+You have to generate the strings by using a given number string from 2 to 9phoneKeyboard.png
+
+Ex: Input: 345 sholud generate combinations like Output : dgj dgk dgl dhj dhk dhl dij dik dil egj
+egk egl ehj
+ehk ehl eij
+
+and so on.....
+
+Input Format
+
+First line contains a number which contains 2 to 9
+
+Output Format
+
+Each line should output one string combination
+
+Sample Input
+
+345
+
+Sample Output
+
+dgj dgk dgl dhj dhk dhl dij dik dil egj
+egk egl ehj
+ehk ehl eij
+
+and so on.....
