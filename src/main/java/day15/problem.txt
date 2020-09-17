@@ -1,0 +1,17 @@
+
+
+Generate Parentheses
+
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+Input: n=1
+Output: ()
+Explantaion: This the only sequence of balanced
+parenthesis formed using 1 pair of balanced parenthesis.
+
+Input : n=2
+Output:
+(())
+()()
+Explantaion: This the only two sequences of balanced
+parenthesis formed using 2 pair of balanced parenthesis.
