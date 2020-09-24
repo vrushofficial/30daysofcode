@@ -1,0 +1,14 @@
+
+--------------------------------Solution-----------------------------------
+
+
+Assume that star is moving towards to star.
+Star has only two possible way to move towards robots - Left and Above.
+In first row and first column from each cell it will have 1 path to reach, mark all cells of first first row and column as 1
+And start iterating from [1,1] to [m,n] and use [m,n-1]+[m-1,n] as memoization.
+[m][n] would be total unique paths.
+
+
+
+
+
