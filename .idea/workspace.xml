@@ -1,18 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3254a47-fb33-4357-bec1-554f0ccf723b" name="Default Changelist" comment="" />
+    <list default="true" id="d3254a47-fb33-4357-bec1-554f0ccf723b" name="Default Changelist" comment="day -16 Generate Parenthesis">
+      <change afterPath="$PROJECT_DIR$/src/main/java/day19/CoinChangeWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/day19/problem.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day13/PhoneLetterCombinations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day13/PhoneLetterCombinations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day16/GenerateParenthesis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/day17/WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/day17/WordSearch.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="vrushofficial &lt;37032366+vrushofficial@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
   <component name="ProjectId" id="1ec8Y6pkxjjpStojiIsxuKWlzyd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my_git\30daysofcode\src\main\java\day15" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.CoinChange2">
+    <configuration name="CoinChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day19.CoinChange2" />
+      <module name="30daysofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day17.Solution" />
+      <module name="30daysofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.SortColors" />
+      <module name="30daysofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UniquePathRecursive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.UniquePathRecursive" />
+      <module name="30daysofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day18.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day17.WordSearch" />
+      <module name="30daysofcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CoinChange2" />
+        <item itemvalue="Application.UniquePathRecursive" />
+        <item itemvalue="Application.SortColors" />
+        <item itemvalue="Application.WordSearch" />
+        <item itemvalue="Application.Solution (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -25,12 +134,127 @@
       <option name="presentableId" value="Default" />
       <updated>1594609564836</updated>
     </task>
+    <task id="LOCAL-00001" summary="day -15 Generate Parenthesis">
+      <created>1600315888538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600315888538</updated>
+    </task>
+    <task id="LOCAL-00002" summary="day16 - Permutations">
+      <created>1600330863036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600330863036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day -16 Generate Parenthesis" />
+    <MESSAGE value="day -15 Generate Parenthesis" />
+    <MESSAGE value="day16 - Permutations" />
+    <option name="LAST_COMMIT_MESSAGE" value="day16 - Permutations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Project_Structure" timestamp="1594609600877">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1594609600877" />
+    <state x="438" y="73" key="#xdebugger.evaluate" timestamp="1601202828656">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="73" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1601202828656" />
+    <state x="349" y="0" key="CommitChangelistDialog2" timestamp="1600955059884">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="349" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1600955059884" />
+    <state width="1322" height="236" key="GridCell.Tab.0.bottom" timestamp="1601202723161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601202723161" />
+    <state width="1322" height="236" key="GridCell.Tab.0.center" timestamp="1601202723161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1601202723161" />
+    <state width="1322" height="236" key="GridCell.Tab.0.left" timestamp="1601202723161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1601202723161" />
+    <state width="1322" height="236" key="GridCell.Tab.0.right" timestamp="1601202723161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1601202723161" />
+    <state width="1322" height="236" key="GridCell.Tab.1.bottom" timestamp="1601202723874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="236" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1601202723874" />
+    <state width="1322" height="236" key="GridCell.Tab.1.center" timestamp="1601202723874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="236" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1601202723874" />
+    <state width="1322" height="236" key="GridCell.Tab.1.left" timestamp="1601202723874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="236" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1601202723874" />
+    <state width="1322" height="236" key="GridCell.Tab.1.right" timestamp="1601202723874">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="236" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1601202723874" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1600955068308">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1600955068308" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600349903696">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600349903696" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day15/GenerateParenthesis.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day16/Permutations.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day16/Permutations.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day17/WordSearch.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day17/WordSearch.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day17/WordSearch.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day18/UniquePath.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/day19/CoinChangeWays.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
