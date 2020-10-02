@@ -1,0 +1,24 @@
+--------------------------------------------Algorithm-----------------------------------------------------
+
+
+1] Init two stsack- i). for operand  ii). for operator
+2] for each char in expression
+        if char is operand push to operand's stack
+        else if char is '(' push to operator's stack
+        else if char is ')'
+            pop from operator's stack
+            pop two operands from stack
+            perform operation & push result back to operand's stack
+            till encounter '(' in operator's stack
+         else if char + or - or * or /
+            pop from operator's stack
+            pop two operands from stack
+            perform operation & push result back to operand's stack
+            till size of operator's stack >0 and encounter any '(' and priority of operator's peek is greater than priority of current char
+            pop operator
+            push operator
+3] untill operator is empty
+    pop from operator's stack
+    pop two operands from stack
+    perform operation & push result back to operand's stack
+
