@@ -41,7 +41,7 @@ public class CourseSchedule_I {
         //Mark as being visited
         visited[i]=1;
         for (int adj: adjacents[i])
-           if(!dfs(adjacents,visited,i)) return false;
+           if(!dfs(adjacents,visited,adj)) return false;
         //Mark as visited
         visited[i]=2;
         return true;
